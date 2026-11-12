@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1f3d34">
+  <meta name="description" content="Warped Blossom — roupas independentes com espírito skate e personalidade própria.">
+  <title>Warped Blossom® — Clothing Co.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">INDEPENDENT STREETWEAR · MADE TO BE WORN YOUR WAY</div>
+
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Warped Blossom início">WARPED<span>✿</span><br>BLOSSOM<small>CLOTHING CO.</small></a>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="main-nav" aria-label="Navegação principal">
+      <a href="#shop">LOJA</a>
+      <a href="#collections">COLEÇÕES</a>
+      <a href="#lookbook">LOOKBOOK</a>
+      <a href="#about">SOBRE</a>
+    </nav>
+    <button class="cart-button" id="cart-open">SACOLA <span id="cart-count">0</span></button>
+  </header>
+
+  <main>
+    <section class="hero hero-no-image" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">WARPED BLOSSOM® — VOL. 001</p>
+        <h1>WEAR YOUR<br><em>OWN WORLD.</em></h1>
+        <p class="hero-description">Streetwear independente para quem prefere criar o próprio caminho.</p>
+        <a class="button button-light" href="#shop">EXPLORAR A LOJA <span>↗</span></a>
+        <div class="hero-note">CLOTHING FOR EVERYDAY MISFITS.</div>
+      </div>
+      <div class="hero-art" aria-label="Composição gráfica da Warped Blossom">
+        <div class="hero-art-top">WB® / EST. 2026</div>
+        <div class="hero-flower">✿</div>
+        <div class="hero-art-word">WARPED<br>BLOSSOM</div>
+        <div class="hero-art-bottom"><span>INDEPENDENT</span><span>BY NATURE.</span></div>
+        <div class="hero-art-sticker">BLOOM<br>YOUR<br>WAY</div>
+      </div>
+      <div class="checker-strip" aria-hidden="true"></div>
+    </section>
+
+    <section class="ticker" aria-label="Mensagem da marca"><div>WARPED BLOSSOM ✿ INDEPENDENT BY NATURE ✿ KEEP IT WEIRD ✿ WARPED BLOSSOM ✿ INDEPENDENT BY NATURE ✿ KEEP IT WEIRD ✿</div></section>
+
+    <section class="section shop-section" id="shop">
+      <div class="section-heading">
+        <div><p class="eyebrow">01 / THE SHOP</p><h2>FRESH <em>GOODS.</em></h2></div>
+        <a class="text-link" href="#shop">VER TODOS OS PRODUTOS ↗</a>
+      </div>
+      <div class="filters" role="group" aria-label="Filtrar produtos">
+        <button class="filter active" data-filter="all">TUDO</button>
+        <button class="filter" data-filter="tops">CAMISETAS</button>
+        <button class="filter" data-filter="layers">MOLETONS</button>
+        <button class="filter" data-filter="accessories">ACESSÓRIOS</button>
+      </div>
+      <div class="product-grid" id="product-grid">
+        <article class="product-card" data-category="tops">
+          <div class="product-art product-art-aqua"><span class="product-tag">NEW</span><span class="product-art-flower">✿</span><strong>BLOSSOM<br>TEE</strong><small>WB — 001</small><button class="quick-add" data-product="Blossom Tee" data-price="89.90">ADICIONAR +</button></div>
+          <div class="product-info"><h3>Blossom Tee</h3><span>R$ 89,90</span><p>OFF-WHITE / WB-001</p></div>
+        </article>
+        <article class="product-card" data-category="layers">
+          <div class="product-art product-art-forest"><span class="product-art-flower">✿</span><strong>WARPED<br>HOODIE</strong><small>WB — 002</small><button class="quick-add" data-product="Warped Hoodie" data-price="189.90">ADICIONAR +</button></div>
+          <div class="product-info"><h3>Warped Hoodie</h3><span>R$ 189,90</span><p>FOREST / WB-002</p></div>
+        </article>
+        <article class="product-card" data-category="tops">
+          <div class="product-art product-art-yellow"><span class="product-tag">LIMITED</span><span class="product-art-flower">✿</span><strong>GARDEN<br>CLUB</strong><small>WB — 003</small><button class="quick-add" data-product="Garden Tee" data-price="99.90">ADICIONAR +</button></div>
+          <div class="product-info"><h3>Garden Tee</h3><span>R$ 99,90</span><p>AQUA / WB-003</p></div>
+        </article>
+        <article class="product-card" data-category="accessories">
+          <div class="product-art product-art-sage"><span class="product-art-flower">✿</span><strong>DAILY<br>CAP</strong><small>WB — 004</small><button class="quick-add" data-product="Daily Cap" data-price="79.90">ADICIONAR +</button></div>
+          <div class="product-info"><h3>Daily Cap</h3><span>R$ 79,90</span><p>GREEN / WB-004</p></div>
+        </article>
+      </div>
+      <p class="demo-note">* Produtos, artes e preços são demonstrativos. Personalize com os produtos reais da marca.</p>
+    </section>
+
+    <section class="collection-section" id="collections">
+      <div class="collection-graphic">
+        <div class="collection-stamp">WARPED<br>BLOSSOM®</div>
+        <div class="collection-big-flower">✿</div>
+        <div class="collection-checker" aria-hidden="true"></div>
+        <span class="collection-graphic-caption">COLLECTION Nº 001 / 2026</span>
+      </div>
+      <div class="collection-copy">
+        <p class="eyebrow">02 / CURRENT COLLECTION</p>
+        <h2>NOTHING<br>GROWS IN<br><em>STRAIGHT LINES.</em></h2>
+        <p>Uma coleção sobre movimento, mudança e encontrar beleza nas coisas fora do lugar.</p>
+        <a class="button button-dark" href="#shop">DESCOBRIR VOL. 001 ↗</a>
+        <span class="collection-index">COLLECTION Nº 001 — 2026</span>
+      </div>
+    </section>
+
+    <section class="section lookbook-section" id="lookbook">
+      <div class="section-heading">
+        <div><p class="eyebrow">03 / VISUAL DIARY</p><h2>THE <em>LOOKBOOK.</em></h2></div>
+        <p class="heading-aside">ROUPAS EM MOVIMENTO.<br>GENTE DE VERDADE.</p>
+      </div>
+      <div class="lookbook-grid lookbook-typographic">
+        <article class="lookbook-card lookbook-card-large"><span>01 / WB ARCHIVE</span><strong>OUTSIDE<br>THE LINES.</strong><i>✳</i><small>STYLE IS A STATE OF MIND.</small></article>
+        <article class="lookbook-card lookbook-card-aqua"><span>02 / DAILY UNIFORM</span><strong>EVERY<br>DAY.</strong><i>✿</i><small>NO RULES, JUST PERSONAL STYLE.</small></article>
+        <article class="lookbook-card lookbook-card-yellow"><span>03 / BLOOM IN PUBLIC</span><strong>GROW<br>WILD.</strong><i>✳</i><small>FIND YOUR OWN WAY.</small></article>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="about-mark">✿</div>
+      <div><p class="eyebrow">04 / WHO WE ARE</p><h2>NOT JUST<br><em>CLOTHES.</em></h2></div>
+      <div class="about-text">
+        <p>A Warped Blossom é uma marca independente inspirada pela cultura skate, música, arte e pela liberdade de experimentar.</p>
+        <p>Não existe um jeito certo de florescer. Vista o que faz sentido para você, misture referências e faça do seu jeito.</p>
+        <a class="text-link" href="mailto:hello@warpedblossom.com">FALE COM A GENTE ↗</a>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <p class="eyebrow">THE BLOSSOM BULLETIN</p>
+      <h2>STAY IN <em>THE LOOP.</em></h2>
+      <p>Novidades, lançamentos e coisas interessantes. Sem spam.</p>
+      <form id="newsletter-form">
+        <label class="sr-only" for="email">Seu e-mail</label>
+        <input id="email" type="email" placeholder="SEU E-MAIL" required>
+        <button type="submit">INSCREVER ↗</button>
+      </form>
+      <small id="newsletter-message">AO SE INSCREVER, VOCÊ ACEITA RECEBER NOVIDADES DA MARCA.</small>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <a class="footer-logo" href="#home">WARPED<br>BLOSSOM<span>✿</span></a>
+      <p>INDEPENDENT CLOTHING.<br>INDEPENDENT THINKING.</p>
+      <div class="footer-links"><a href="#shop">LOJA</a><a href="#about">SOBRE</a><a href="mailto:hello@warpedblossom.com">CONTATO</a><a href="#home">INSTAGRAM ↗</a></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 WARPED BLOSSOM®</span><span>MADE TO BLOOM DIFFERENTLY.</span><a href="#home">VOLTAR AO TOPO ↑</a></div>
+  </footer>
+
+  <div class="cart-overlay" id="cart-overlay" aria-hidden="true">
+    <aside class="cart-drawer" role="dialog" aria-modal="true" aria-label="Sua sacola">
+      <div class="cart-header"><h2>SUA SACOLA <span id="drawer-count">(0)</span></h2><button id="cart-close" aria-label="Fechar sacola">✕</button></div>
+      <div class="cart-items" id="cart-items"><p class="empty-cart">Sua sacola está vazia por enquanto.</p></div>
+      <div class="cart-footer">
+        <div><span>Subtotal</span><strong id="cart-total">R$ 0,00</strong></div>
+        <button class="button button-dark checkout-button" id="checkout">FINALIZAR PEDIDO ↗</button>
+        <small>Checkout demonstrativo — ainda não processa pagamentos.</small>
+      </div>
+    </aside>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
